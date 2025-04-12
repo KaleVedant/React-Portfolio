@@ -88,7 +88,7 @@ export default function Portfolio() {
           <h1 className="text-5xl font-bold text-gray-900 mb-4">Vedant Kale</h1>
           <p className="text-xl text-gray-700">E&TC Engineer | Web Developer | React Enthusiast</p>
           <div className="mt-4">
-            <a href="/Vedant_Kale_Resume.pdf" download>
+            <a href="/public/vedant kale Resume.pdf" download>
               <Button className="mt-4 bg-blue-700 hover:bg-blue-600 text-white">📄 Download Resume</Button>
             </a>
           </div>
@@ -109,14 +109,13 @@ export default function Portfolio() {
         <motion.section id="about" variants={zoomIn} initial="hidden" whileInView="visible" viewport={{ once: true }} className="text-center px-6 py-12 max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-gray-900 mb-6 border-b-4 inline-block border-blue-600 pb-2">About Me</h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Hello! I’m Vedant Kale, a passionate Electronics and Telecommunication Engineering student with hands-on experience in web development, React, and modern front-end tools. I love crafting efficient, responsive, and user-friendly web interfaces.
+            Hello! I’m Vedant Kale, a passionate Electronics and Telecommunication Engineering student with hands-on experience in Java, web development, React, and modern front-end tools. I love crafting efficient, responsive, and user-friendly web interfaces.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed mt-4">
             I’ve led development teams, built scalable projects, and contributed to open-source code on GitHub. Always eager to learn and grow in the dynamic tech landscape.
           </p>
         </motion.section>
 
-        {/* Skills */}
         {/* Skills */}
 <motion.section 
   id="skills" 
@@ -129,6 +128,7 @@ export default function Portfolio() {
   <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center border-b-4 inline-block border-blue-600 pb-2">
     Skills & Tools
   </h2>
+  
   
   <div className="grid md:grid-cols-3 gap-8">
     <div>
@@ -156,6 +156,10 @@ export default function Portfolio() {
     <div>
       <h3 className="text-xl font-semibold mb-4 text-blue-700">Backend</h3>
       <ul className="space-y-2">
+      <li className="flex items-center">
+          <span className="w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
+          java
+        </li>
         <li className="flex items-center">
           <span className="w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
           Node.js
@@ -172,6 +176,21 @@ export default function Portfolio() {
           <span className="w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
           MySQL
         </li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-semibold mb-4 text-blue-700">languages</h3>
+      <ul className="space-y-2">
+      <li className="flex items-center">
+          <span className="w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
+          Core java
+        </li>
+        <li className="flex items-center">
+          <span className="w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
+          basic C
+        </li>
+       
       </ul>
     </div>
     
