@@ -86,7 +86,7 @@ export default function Portfolio() {
             className="w-40 h-40 rounded-full mb-6 shadow-lg object-cover"
           />
           <h1 className="text-5xl font-bold text-gray-900 mb-4">Vedant Kale</h1>
-          <p className="text-xl text-gray-700">E&TC Engineer | Web Developer | React Enthusiast</p>
+          <p className="text-xl text-gray-700">E&TC Engineer | Java Developer | Web Developer | React Enthusiast</p>
           <div className="mt-4">
             <a href="/public/vedant kale Resume.pdf" download>
               <Button className="mt-4 bg-blue-700 hover:bg-blue-600 text-white">📄 Download Resume</Button>
