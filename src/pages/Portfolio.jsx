@@ -258,9 +258,7 @@ export default function Portfolio() {
           <p className="text-lg">
             📧 <a href="mailto:vedant35kale@gmail.com" className="text-blue-600 hover:underline">vedant35kale@gmail.com</a>
           </p>
-          <p className="text-lg mt-2">
-            📞 <a href="tel:+918275214239" className="text-blue-600 hover:underline">+91 8275214239</a>
-          </p>
+      
         </motion.section>
       </main>
 
